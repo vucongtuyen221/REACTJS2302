@@ -1,0 +1,7 @@
+
+table{border-collapse: collapse;width: 90%;text-align: center;height: 100%;}
+
+table ,tr ,th ,td{border: 1px solid rgb(176, 31, 31); }
+th{display: table-cell;}
+th{background-color: rgb(206, 143, 159); color: white;}      td[rowspan]{color: rgb(157, 26, 94);text-align: left;}
+td[colspan]{text-align: left;}

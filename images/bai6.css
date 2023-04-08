@@ -1,0 +1,5 @@
+h1 {text-transform: uppercase; text-align: center;border-style: double;color: brown;}
+.chudo{color: red;}
+.chu::first-letter{color: red; font-size: 50px;}
+h3{background-color: rgb(158, 102, 32);color: white;text-align: right;}
+.chu{font-size: 20px;}

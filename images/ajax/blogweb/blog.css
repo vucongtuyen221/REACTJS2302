@@ -1,0 +1,285 @@
+.frontroboto{font-family: 'Roboto Slab', serif;}
+.fontoswarld{font-family: 'Oswald', sans-serif;}
+.fontdancing{font-family: 'Dancing Script', cursive;}
+*{margin: 0;padding: 0 ;}
+
+.topheader {
+    background: #222222;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+}
+.mangxh a{
+    color: #dddddd;
+    font-size: 12px;
+    padding: 0 13px;
+}
+.mangxh a:nth-child(1){
+    padding-left: 0;
+}
+.datban{
+    border-left: 1px solid #ddd;
+    float: left;
+    margin-left: 17px;
+    padding-left: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: #ddd;
+}
+.datban.openingtop.float-xs-right{
+    border-right: 1px solid #ddd;
+    padding-right: 26px;
+}
+.datban.openingtop.float-sm-right{
+    border-right: 1px solid #ddd;
+    padding-right: 26px;
+}/* het topheader */
+
+/* su ly giao dien di dong */
+@media (max-width: 576px) {
+    
+    .datban {
+        border: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-top: 1px dashed #5a5a5a;
+    }
+    .topheader{height: auto;
+        padding-top: 9px;
+    }
+    .datban.openingtop.float-xs-right{
+        border-right: none;
+        padding-right: 0px;
+}
+.nav a.nav-link{
+    text-align: center;
+    margin: 0;
+    padding: 13px 0;
+    display: block;
+    border-bottom: 1px solid black;
+}
+.datbanmenu a.nav-link.btn.btn-warning{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    border-bottom: 0px;
+}
+.chu{
+    padding: 0;
+    top: 22px;
+    background: none;
+}
+.chu h2{
+    font-size: 20px;
+}
+.chu p{
+    width: 448px;
+    font-size: 13px;
+    display: none;
+}
+a.nutslide.fontoswarld.btn.btn-warning{
+    width: 117px;
+    height: 22px;
+    line-height: 32px;
+    font-size: 13px;
+}
+.badichvu{
+    padding-top: 21px;
+}
+span.tieudephu.fontdancing{
+    font-size: 29px;
+
+}
+h3.tieudechinh.fontroboto{
+    font-size: 28px;
+}
+.tieudekhoimenu.text-xs-center{
+    height: 300px;
+}
+}
+
+ /*het media*/
+
+a.nav-link{
+    color: #777;
+    font-size: 14px;
+    margin-top: 43px;
+    padding: 0 15px;
+}
+.datbanmenu a.nav-link.btn.btn-warning{
+border-radius: 0px;
+font-size: 13px;
+color: black;
+width: 150px;
+line-height: 44px;
+text-align: center;
+display: inline-block;
+height: 44px;
+padding: 0;
+transform: translateY(-7px);
+}
+a.nav-link{
+    color: #777;
+    font-size: 14px;
+    margin-top: 43px;
+    padding: 0 15px;
+}
+.datbanmenu a.nav-link.btn.btn-warning{
+    border-radius: 0px;
+    font-size: 13px;
+    color: black;
+    height: 44px;
+    width: 150px;
+    line-height: 44px;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    transform: translateY(-7px);
+}
+
+.chu{
+    position: absolute;
+    color: white;
+    margin-left: 14%;
+    padding-top: 168px;
+    top: 58px;
+}
+.chu h2{
+    font-size: 50px;
+}
+.chu p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: white;
+    width: 625px;
+}
+a.nutslide.btn.btn-warning{
+    border-radius: 0px;
+    width: 165px;
+    height: 50px;
+    padding: 0;
+    line-height: 50px;
+    color: black;
+    font-size: 14px;
+    
+}
+/*stars khoi 3dichvu*/
+.badichvu{
+    padding-top: 121px;
+}
+.badichvu h3 a{
+   font-family: 'Oswald', sans-serif;;
+    font-size: 20px;
+    color: #333;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.badichvu p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    text-align: center;
+}
+a.readmore{
+    color: #726d6d;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;}
+/* end khoi 3dichvu */
+.khoimenu{
+    background: url(./gaidep.jpg);
+    background-size: cover;
+    color: white;
+    height: 550px;
+    padding-left: 400px;
+    text-align: center;
+}
+.tieudekhoimenu.text-xs-center{
+    display: table;
+    margin: auto;
+    height: 550px;
+}
+.tieudekhoimenu{
+    padding-top: 200px;
+}
+span.tieudephu{
+    font-weight: 700;
+    font-size: 38px;
+    color: #feb518;
+}
+h3.tieudechinh.fontroboto{
+    font-size: 36px;
+    font-weight: bold;
+}
+.tieudekhoimenu .container{
+    display: table-cell;
+    vertical-align: middle;;
+}
+
+.thucdonct .tieudect{
+    height: 40px;
+    line-height: 40px;
+    background: rgb(72, 50, 92);
+    margin-bottom: 120px;
+}
+.thucdonct .noidungct{
+    height: 400px;
+    position: relative;
+    
+}
+.thucdonct .noidungct .noidung{
+    height: 400px;
+    border: 1px solid gold;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+.motmon{
+    height: 120px;
+}
+.anhmon{
+    position: relative;
+    width: 100%;
+}
+.tagnew{
+    position: absolute;
+    top: 0px;
+    font-size: 13px;
+    background: #feb518;
+    font-family: 'Roboto Slab', serif;
+    padding: 2px 7px;
+}
+.noidungct .row .row .col-sm-4[class*=col-]{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tenmon .tren {
+    font-size: 15px;
+    color: #333;
+    border-bottom: 2px dotted black;
+} 
+b.ten{
+    background: gold;
+    transform: translateY(3px);
+    display: inline-block;
+    padding-right: 7px;
+}
+.tenmon .tren span{
+    display: inline-block;
+    background: white;
+    transform: translateY(2px);
+}
+.duoi{
+    color: #777;
+    font-size: 13px;
+    padding-top: 10px;
+}

@@ -1,0 +1,17 @@
+div{text-align: center;}
+#green{color: green;}
+#red{color: red;}
+#blu{color: blue;}
+hr{width: 250px;}
+#blu:hover{color: rgb(84, 13, 128);}
+#green:hover{color: gray;}
+#red:hover{color: rgb(57, 38, 202);}
+.dichuyen{margin-left: -5000px;transition: 0,9s;}
+.dichuyen:hover{margin-left: 0%;transition: 0,9s;}
+
+
+
+
+
+
+
