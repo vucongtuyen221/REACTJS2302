@@ -1,0 +1,38 @@
+.containerR {
+    display: inline-block;
+    width: 450px;
+    height: 500px;
+    border: 1px solid rgb(174, 192, 174);
+    margin-top: 150px;
+    margin-left: 700px ;   
+    border-radius: 2%;
+    padding-top: 70px;
+    padding-right: 40px;
+    background-color: rgb(209, 216, 215);
+ 
+   
+}
+.button{
+    background-image: -webkit-linear-gradient(50deg, rgb(100, 173, 100) 15%
+    ,rgb(8, 126, 8) 40% , green 45%);
+    width: 300px;
+}
+
+@media  (max-width: 844px) {
+    .containerR{
+        display: inline-block;
+        width: 330px;
+        height: 1000px;
+        border: 1px solid rgb(174, 192, 174);
+        margin-top: 0px;
+        margin-left: 0px ;   
+        border-radius: 2%;
+        padding-top: 70px;
+        padding-right: 35px;
+        background-color: rgb(209, 216, 215);
+        font-size:3px;
+    }
+}
+.right {
+text-align: center;
+}

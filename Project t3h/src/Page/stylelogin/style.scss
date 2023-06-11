@@ -1,0 +1,46 @@
+.container {
+    display: inline-block;
+    width: 380px;
+    height: 490px;
+    border: 1px solid rgb(174, 192, 174);
+    margin-top: 140px;
+    margin-left: 700px ;   
+    border-radius: 2%;
+    padding-top: 90px;
+    padding-left: 90px;
+    background-color: rgb(209, 216, 215);
+ 
+   
+}
+
+.login-form {
+    max-width: 300px;
+  }
+ .login-form-forgot {
+    float: right;
+  }
+ 
+  .login-form-button {
+    width: 100%;
+    background-image: -webkit-linear-gradient(50deg, rgb(100, 173, 100) 15%
+    ,rgb(8, 126, 8) 40% , green 45%);
+    width: 300px
+  }
+  .icon{
+    font-size: 30px;
+  }
+@media  (max-width: 844px) {
+    .container{
+        display: inline-block;
+        width: 330px;
+        height: 1000px;
+        border: 1px solid rgb(174, 192, 174);
+        margin-top: 0px;
+        margin-left: 0px ;   
+        border-radius: 2%;
+        padding-top: 70px;
+        padding-right: 35px;
+        background-color: rgb(209, 216, 215);
+        font-size:3px;
+    }
+}
