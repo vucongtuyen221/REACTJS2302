@@ -1,0 +1,17 @@
+:root {
+  margin: 0; padding: 0;
+}
+
+*{margin: 0; padding: 0;}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+button, input, [tabindex]{
+  outline: none;
+  border: none;
+}
