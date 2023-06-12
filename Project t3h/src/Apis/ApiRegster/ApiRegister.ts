@@ -16,7 +16,7 @@ export interface IRes {
 export const ApiRes = (params: IRes) => {
 console.log(params)
 return axios.post(`https://64852d60a795d24810b6c0e2.mockapi.io/api/v1/acc`, params).then((res) =>{
-
+   
    
 
 })

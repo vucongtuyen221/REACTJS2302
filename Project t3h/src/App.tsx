@@ -1,25 +1,14 @@
 
 import './App.css'
 import { Link, Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Login from './Page/Login'
-import Register from './Page/Register'
-import Hompage from './Page/Hompage'
+import Login from './Page/Layout/Login/Login'
+import Register from './Page/Layout/Resgiter/Register'
+import Hompage from './Page/Layout/Homepage/Hompage'
 import { Children } from 'react'
 
 
 
-// function page() {
-//   return (
-//   <div>
-//     <ul>
-//         <li><Link to={"/login"}></Link></li>
-//     </ul>
-//     {/* <section>
-//       <Outlet/>
-//     </section> */}
-// </div>
-//   )
-// }
+
 
 const login  = createBrowserRouter([
  {

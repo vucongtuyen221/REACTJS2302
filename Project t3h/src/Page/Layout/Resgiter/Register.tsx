@@ -1,22 +1,19 @@
 import { CascaderProps, notification } from 'antd';
-import './styleRegister/styleRg.scss'
+import styles from './styleRg.module.scss'
 import {
-  AutoComplete,
   Button,
-  Cascader,
   Checkbox,
-  Col,
   Form,
   Input,
-  InputNumber,
-  Row,
   Select,
 } from 'antd';
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ApiRes } from '../Apis/ApiRegster/ApiRegister';
+import { ApiRes } from '../../../Apis/ApiRegster/ApiRegister';
+import classNames from 'classnames/bind';
 
 
+const cx = classNames.bind(styles);
 const { Option } = Select;
 
 // interface DataType {
@@ -65,9 +62,9 @@ const Register: React.FC = () => {
     })
     navigate('/login')
    }).catch((err) => {
-    notification.error({
-      message: 'Đăng ký,',
-      description: 'thất bại'
+    notification.info({
+      message: 'Đăng ký',
+      description: 'Đăng ký thất bại'
     })
    });
   };
@@ -102,7 +99,7 @@ const Register: React.FC = () => {
   // }));
 
   return (
-    <div className='containerR'>
+    <div className={cx('containerR')}>
     <Form
      {...formItemLayout}
      form={form}
@@ -138,7 +135,7 @@ const Register: React.FC = () => {
         rules={[
           {
             required: true,
-            message: 'Vui lòng điền mật khẩu',
+            message: 'Mật khẩu của bạn ít nhất 6 - 60 ký tự',
           },
 
 
@@ -208,12 +205,12 @@ const Register: React.FC = () => {
         </Checkbox>
       </Form.Item>
       <Form.Item {...tailFormItemLayout}>
-        <Button className='button' type="primary" htmlType="submit">
+        <Button className={cx('button')} type="primary" htmlType="submit">
           Đăng ký
         </Button>
       </Form.Item>
       <Form.Item>
-        <div className='right'>
+        <div className={cx('right')}>
         Bạn đã có tài khoản? 
         <span><Link to= {'/login'}> Đăng nhập</Link></span>
         </div>
