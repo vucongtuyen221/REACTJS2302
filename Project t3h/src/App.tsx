@@ -1,10 +1,12 @@
 
 import './App.css'
-import { Link, Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
+
+import { RouterProvider, createBrowserRouter  } from 'react-router-dom'
 import Login from './Page/Layout/Login/Login'
 import Register from './Page/Layout/Resgiter/Register'
 import Hompage from './Page/Layout/Homepage/Hompage'
-import { Children } from 'react'
+import Search from './Page/Layout/Components/Search/Search/Search'
+
 
 
 
@@ -35,6 +37,9 @@ function App() {
  return(
   <>
  <RouterProvider router ={login}/>
+ 
+ 
+ 
  </>
  )
 }
